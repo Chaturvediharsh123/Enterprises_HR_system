@@ -43,7 +43,7 @@ async def chat(request:chatRequest):
     prompt = f"""
     You are a RAG assistant.
 
-    Answer ONLY using the provided context.
+    
 
     Context:
     {context}
